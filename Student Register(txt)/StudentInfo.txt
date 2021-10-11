@@ -1,0 +1,9 @@
+DateTime :2021-06-26 16:42:39.580438
+Student no: 1
+Name :aa
+Roll No : :aa
+Division :aa
+Mobile No  :aa
+Address  :aa
+Division :aa
+Gender :Male
