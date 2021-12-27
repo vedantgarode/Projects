@@ -1,0 +1,11 @@
+<?php 
+session_start();
+if(isset($_SESSION['employee']))
+{
+unset($_SESSION['employee']);
+if(!isset($_SESSION['employee']))
+{
+header("Location:index.php");
+}
+}
+?>
