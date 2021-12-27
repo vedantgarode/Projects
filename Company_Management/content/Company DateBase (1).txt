@@ -70,9 +70,9 @@ CREATE TABLE employee (
      SET branch_id = 2
      WHERE emp_id = 102;
      
-     INSERT INTO employee VALUES (103,'Angelia','Martin','1971-06-25','F',63000,102,2);
-     INSERT INTO employee VALUES (104,'Kelly','Kapoor','1980-02-05','F',55000,102,2);
-     INSERT INTO employee VALUES (105,'Stanley','Hudson','1958-02-19','M',69000,102,2);
+     INSERT INTO employee VALUES ('Angelia Martin','101','Pune',8237456712,'1971-06-25',63000,'angeliamartin@gmail.com');
+     INSERT INTO employee VALUES ('Kelly Kapoor','102','Pune',3445634523,'1980-02-05',55000,'kellykapoor@gmail.com');
+     INSERT INTO employee VALUES ('Stanley Hudson','103','Pune',2345678901,'1958-02-19',69000,'stanleyhudson@gmail.com');
 
 
      -- Stamford
@@ -97,13 +97,13 @@ CREATE TABLE employee (
      INSERT INTO BRANCH_supplier VALUES (3,'Stamford Lables','Custom Forms');
      
      -- Client
-     INSERT INTO client VALUES (400,'Dunmore Highschool',2);
-     INSERT INTO client VALUES (401,'Lackawana Country',2);
-     INSERT INTO client VALUES (402,'FedEx',3);
-     INSERT INTO client VALUES (403,'John Daly Law, LLC',3);
-     INSERT INTO client VALUES (404,'Scranton Whitepages',2);
-     INSERT INTO client VALUES (405,'Times Newspaper',3);
-     INSERT INTO client VALUES (406,'FedEx',2);
+     INSERT INTO client VALUES ('Dunmore Highschool','Singapore',1111111111,'IT','Pending',dunmorehighschool@gmail.com,2);
+     INSERT INTO client VALUES ('Lackawana Country','India',1212121212,'IT','Pending',lackwana@gmail.com,2);
+     INSERT INTO client VALUES ('FedEx','US',7878787878,'FIN','Pendind',fedex@gmail.com,1);
+     INSERT INTO client VALUES ('John Daly Law, LLC','Nepal',1234567890,'MRK','Done',johndaly@gmail.com,3);
+     INSERT INTO client VALUES ('Scranton Whitepages','China',3030303030,'IT','Pending',scranton@gmail.com,2);
+     INSERT INTO client VALUES ('Times Newspaper','Canada',8989898989,'MRK','Done',timesnews@gmail.com,3);
+     INSERT INTO client VALUES ('HAcomp','Mexico',5656565656,'IT','Done',HAComp@gmail.com,2);
      
      -- Works_With
      INSERT INTO works_with VALUES (105,400,55000);

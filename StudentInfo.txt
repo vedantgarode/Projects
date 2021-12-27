@@ -1,0 +1,9 @@
+DateTime :2021-11-22 14:59:53.178518
+Student no: 1
+Name :vedant 
+Roll No : :234
+Division :B
+Mobile No  :243872
+Address  :afaksfb
+Division :B
+Gender :Male

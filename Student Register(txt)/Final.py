@@ -67,7 +67,7 @@ colors = ["black", "red" , "green" , "blue","yellow","white"]
 root = Tk()
 root.title("Form submission")
 root.geometry('1366x768')
-bg =PhotoImage(file=r"Background.png")
+bg =PhotoImage(file=r"E:\Vedant\Projects\Student Register(txt)\Background.png")
 b1 = Label(root,image=bg)
 b1.place(x=0,y=0)
 v =StringVar(root,"1")
