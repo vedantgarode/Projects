@@ -111,6 +111,8 @@ body{
 }
 td{
     border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 0px 10px 10px 0px ;
 }
 ::-webkit-scrollbar {
     width: 10px;
