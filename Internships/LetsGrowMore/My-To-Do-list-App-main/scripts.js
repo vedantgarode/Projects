@@ -1,4 +1,5 @@
 let index = 1;
+update();
 function adder() {
   console.log("Added Succesfully");
   task = document.getElementById('input-text').value;
