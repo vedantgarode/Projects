@@ -1,4 +1,3 @@
-let index = 1;
 update();
 function adder() {
   console.log("Added Succesfully");
@@ -31,17 +30,17 @@ function update() {
   taskarray = JSON.parse(taskarrayStr)
   let table = document.getElementById("table-body");
   let str = "";
-
-  taskarray.forEach((element, index) => {
-    str +=
-      `<tr>
-    <td width="4%">${index + 1}</td>
-    <td width="90%">${element[0]}</td>
-    <td class="remove-button" onclick="remove(${index })">Remove</td>
-    </tr>`
-  });
-  table.innerHTML = str;
-  console.log("Cleared")
+  if(localStorage.getItem('itemsjson')!=null){
+    taskarray.forEach((element, index) => {
+      str +=
+        `<tr>
+      <td width="4%">${index + 1}</td>
+      <td width="90%">${element[0]}</td>
+      <td class="remove-button" onclick="remove(${index })">Remove</td>
+      </tr>`
+    });
+    table.innerHTML = str;
+  }
 }
 function clear() {
   localStorage.clear();
