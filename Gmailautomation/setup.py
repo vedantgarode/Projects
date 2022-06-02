@@ -1,9 +1,5 @@
-import subprocess
-import sys
+import pywhatkit
 
-
-def install(file):
-    subprocess.check_call([sys.executable,"pip", "install", file])
-
-# file = open("requirement.txt","r")
-install("tkinter")
+pywhatkit.sendwhatmsg("+917757905172",
+                      "Geeks For Geeks!",
+                      18, 30)
