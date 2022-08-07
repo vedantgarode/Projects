@@ -1,12 +1,15 @@
-.header_icon{
+.header_logo{
     object-fit: contain;
     height: 40px;
-    padding: 0px;
+}
+.header_icon{
+    padding: 10px;
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 100;
-    border-bottom: 1px solid white;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0);
 }

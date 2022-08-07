@@ -1,0 +1,31 @@
+.tinder_cards{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 254, 254);
+    overflow: hidden;
+}
+.card{
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    background-size: contain;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.605);
+}
+.card_container{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text_contain{
+    
+}
